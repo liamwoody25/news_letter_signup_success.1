@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./public/assets/icons/favicon-32x32.png">
+  <link rel="stylesheet" href="./public/css/main.css">
+  <title>sign-up Success page</title>
+</head>
+<body>
+    <div class="container">
+      <section class="news-card">
+          <img class="sign-up-mobile-img" src="./public/assets/images/illustration-sign-up-mobile.svg" alt="sign-up-mobile-img">
+          <img class="sign-up-tablet-img" src="./public/assets/images/illustration-sign-up-tablet.svg" alt="sign-up-tablet-img">
+          <img class="sign-up-desktop-img" src="./public/assets/images/illustration-sign-up-desktop.svg" alt="sign-up-desktop-img">
+        <div class="card-content">
+          <h1>Stay updated!</h1>
+          <p>Join 60,000+ product managers receiving monthly updates on:</p>
+        <div class="check-list">
+          <div class="checklist"><img src="./public/assets/icons/icon-list.svg" alt="checklist-icon"><p>Product discovery and building what matters</p></div>
+          <div class="checklist"><img src="./public/assets/icons/icon-list.svg" alt="icon-list"><p>Measuring to ensure updates are a success</p></div>
+          <div class="checklist"><img src="./public/assets/icons/icon-list.svg" alt="icon-list"><p>And much more!</p></div>
+        </div>
+
+        <!------ news-form ------>
+        <div class="news-form">
+          <label>Email address</label>
+          <div class="error-message">valid email required</div>
+          <input type="text" id="email-input" placeholder="email@company.com">
+          <button class="subscribe-btn">Subscribe to monthly newsletter</button>
+        </div>
+        </div>
+      </section>
+
+      <!---- success modal for the when the email is submited ---->
+      <article class="success-modal hide">
+          <img class="success-img" src="./public/assets/icons/icon-success.svg" alt="icon-success">
+        <div class="success-content">
+          <h1>Thanks for subscribing!</h1>
+          <p>A confirmation email has been sent to <strong>ash@loremcompany.com.</strong> Please open it and click the button inside to confirm your subscription.</p>
+        </div>
+        <button class="dismiss-btn">Dismiss message</button>
+      </article>
+    </div>
+    <script src="./public/js/script.js"></script>
+</body>
+</html>
