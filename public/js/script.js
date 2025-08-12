@@ -9,13 +9,13 @@ const newsSignUp = document.querySelector('.news-card');
 // this function is an invalid email whether typed in or not 
 function invalidEmail() {
   if (emailInput.value === '') {
-    emailInput.style.border = '1px solid #e74c3c'
-    invalidMessage.style.display = 'block'
-    emailInput.style.color = '#e74c3c'
-    showSuccess.style.display = 'none'
+    emailInput.style.border = '1px solid #e74c3c';
+    invalidMessage.style.display = 'block';
+    emailInput.style.color = '#e74c3c';
+    showSuccess.style.display = 'none';
   } else {
-    invalidMessage.style.display = 'none'
-    emailInput.style.border = '1px solid #949494'
+    invalidMessage.style.display = 'none';
+    emailInput.style.border = '1px solid #949494';
   }
 }
 
