@@ -271,6 +271,14 @@ body {
 
   /**** components ****/
 
+  input {
+    width: 85%;
+  }
+
+  .subscribe-btn {
+    width: 96%;
+  }
+
   .dismiss-btn:hover {
     background:linear-gradient(to right, #FF6A3A,#FF527B) ;
     box-shadow:1px 5px 10px #FF527B ;
