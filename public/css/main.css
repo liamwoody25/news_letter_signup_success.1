@@ -173,7 +173,6 @@ body {
 
   .dismiss-btn {
     width: 100%;
-    margin-top: 20px;
   }
 
   /**** components ****/
@@ -283,6 +282,10 @@ body {
   .dismiss-btn:hover {
     background:linear-gradient(to right, #FF6A3A,#FF527B) ;
     box-shadow:1px 5px 10px #FF527B ;
+  }
+
+  .dismiss-btn {
+    margin-top: 20px;
   }
   
   /**** components ****/
