@@ -21,7 +21,7 @@ function invalidEmail() {
 
 //  this function is when the email is valid the modal pops up
 function validEmail() {
-  if (emailInput.value === 'email@company.com') {
+  if (emailInput.value !== '') {
     newsSignUp.style.display = 'none'
     showSuccess.style.display = 'block'
   } else {
